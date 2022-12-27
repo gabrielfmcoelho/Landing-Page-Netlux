@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {Link} from 'react-scroll';
-import logo from '../assets/images/logo.png'
-import BotaoOrcamento from './botaoOrcamento'
+import logo from '/src/assets/images/logo.png'
+import BotaoOrcamento from './botaoOrcamento.jsx'
 
 const Navbar = () => {
   return (

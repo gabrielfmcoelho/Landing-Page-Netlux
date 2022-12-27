@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-scroll'
-import Navbar from './Navbar'
+import Navbar from '../auxiliary/navbar.jsx'
 
 const Home = () => {
   return (

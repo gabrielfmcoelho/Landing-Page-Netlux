@@ -1,6 +1,7 @@
 import React from 'react'
-import Home from './components/home'
-import Obras from './components/obras'
+import MolduraObra from './components/auxiliary/molduraObra.jsx'
+import Home from './components/sections/home.jsx'
+import Obras from './components/sections/obras.jsx'
 
 function App() {
   return (
