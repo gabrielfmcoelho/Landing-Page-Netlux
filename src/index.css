@@ -127,11 +127,9 @@
 }
 
 .tw-formato-banner {
-  width: 1250px;
-  height: 180px;
-
+  box-sizing: border-box;
+  
   background: #000000;
-  border-radius: 10px;
 }
 
 .tw-texto-banner {
@@ -164,9 +162,6 @@
 
 .tw-formato-video {
   box-sizing: border-box;
-
-  width: 490px;
-  height: 270px;
 
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 16px;
