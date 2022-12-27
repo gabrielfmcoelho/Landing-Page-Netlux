@@ -49,7 +49,7 @@ const SobreNos = () => {
                 <img src={ComotTrab}/>
             </div>
         </div>
-        <div className='pt-[100px]'>
+        <div className='pt-[120px]'>
             <Banner/>
         </div>   
     </section>

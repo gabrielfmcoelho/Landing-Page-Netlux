@@ -28,7 +28,7 @@
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
-  font-size: 48px;
+  font-size: 43px;
   line-height: 160%;
 }
 
@@ -104,7 +104,7 @@
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 43px;
   line-height: 130%;
 
   color: #F68013;
@@ -165,9 +165,42 @@
 .tw-formato-video {
   box-sizing: border-box;
 
-  width: 500px;
+  width: 490px;
   height: 270px;
 
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 16px;
+}
+
+.tw-titulo-contato {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 43px;
+  line-height: 170%;
+
+  letter-spacing: 0.01em;
+}
+
+.tw-texto-contato {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20.45px;
+  line-height: 170%;
+
+  letter-spacing: 0.01em;
+}
+
+.tw-campo-formulario-pd {
+  box-sizing: border-box;
+
+  background: rgba(227, 222, 222, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0.75);
+}
+
+.tw-linha-horizontal-footer {
+  width: 1170px;
+
+  border: 1px solid #FFFFFF;
 }
