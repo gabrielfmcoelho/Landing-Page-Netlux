@@ -31,6 +31,9 @@ const Obras = () => {
                     <span className='tw-destquebyd'>Netlux Solar </span>
                     <span>é a única</span>
                 </h1>
+                <h1 className='tw-fonte-titulo text-white'>
+                    parceira BYD no Piauí
+                </h1>
                 <div className='tw-fonte-texto text-white'>
                     <p>
                         A BYD, maior empresa de elétricos do mundo,
