@@ -17,6 +17,7 @@ const Banner = () => {
             <div className='flex flex-col text-left m-auto max-lg:text-center max-lg:pt-5 max-lg:pb-5 lg:m-5'>
                 <h1 className='tw-texto-banner text-white max-sm:m-4'>
                     QUER SABER MAIS SOBRE ENERGIA SOLAR ?
+                    <br className='max-lg:hidden'/>
                     <span className='tw-texto-banner text-white max-sm:m-4'>
                         <br className='lg:hidden'/>
                         <br className='lg:hidden'/> FALE COM A GENTE AGORA MESMO!
