@@ -23,7 +23,7 @@ const Navbar = () => {
         <nav className='font-[600] leading-[24px] text-[16px] flex space-x-14 items-center justify-center text-white'>
             {secoes.map((secao) => (
                 <p key={secao.id} className='cursor-pointer'>
-                    <Link to={secao.link} smooth duration={500} offset={secao.offset} className='hover:text-[#F68013]'>
+                    <Link onClick={()=>setClick(!click)} to={secao.link} smooth duration={500} offset={secao.offset} className='hover:text-[#F68013]'>
                         {secao.nome}
                     </Link>
                 </p>

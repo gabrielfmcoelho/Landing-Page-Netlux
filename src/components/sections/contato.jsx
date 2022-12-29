@@ -58,8 +58,8 @@ const Contato = () => {
             ## Footer
             Coelho -> Falta revisar o codigo do footer e acrescentar responsividade.
         */}
-        <div>
-
+        <div className='p-4 pt-[150px]'>
+            <Footer/>
         </div>
         {/* ------------------------------------------------ */}
     </section>
