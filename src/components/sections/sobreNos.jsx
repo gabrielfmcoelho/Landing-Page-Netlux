@@ -17,23 +17,23 @@ const SobreNos = () => {
         ------------------------------------------------
         # Inicio da seção: "Sobre Nós"
     */
-    <section className='w-full h-fit bg-[#DCDEE2] '>
+    <section className='w-full h-fit bg-[#DCDEE2]'>
         {/*
             ------------------------------------------------
             ## Nossa história e video institucional
             Coelho -> Layout está pronto e responsivo por completo.
         */}
-        <div className='lg:grid lg:grid-cols-2 lg:gap-10 xl:pl-[75px] lg:pl-[50px] flex-col max-md:space-y-10 p-4 w-full max-w-screen-2xl h-full'>
+        <div name='SOBRE NÓS' className='lg:grid lg:grid-cols-2 lg:gap-10 xl:pl-[75px] lg:pl-[50px] flex-col max-lg:space-y-10 p-4 w-full max-w-screen-2xl h-full'>
             {/*
                 ------------------------------------------------
                 ### Titulo e texto nossa historia
                 Coelho -> Layout está pronto e responsivo.
             */}
             <div className='flex flex-col space-y-2'>
-                <h1 className='tw-fonte-titulo text-black max-md:text-left'>
+                <h1 className='tw-fonte-titulo text-black max-lg:text-center'>
                     <p>Conheça um pouco da nossa história </p>
                 </h1>
-                <p className='text-black tw-fonte-texto max-md:text-left'> 
+                <p className='text-black tw-fonte-texto max-lg:text-center'> 
                     A Netlux Solar é uma empresa subsidiária do grupo Netlux  especializada em implantação de sistemas de geração de  energia Solar. Oferecemos soluções completas, para que  nossos clientes possam gerar sua própria energia e reduzir os seus custos, e assim, investir em outros sonhos.
                 </p>
             </div>
@@ -53,15 +53,15 @@ const SobreNos = () => {
             ## Nossa missão
             Coelho -> Layout está pronto e responsivo.
         */}.
-        <div className='flex flex-col xl:pl-[75px] lg:pl-[50px] pt-[50px] p-4 max-md:w-screen'>
-            <h1 className='text-black tw-fonte-titulo'>
+        <div className='flex flex-col xl:pl-[75px] lg:pl-[50px] pt-[50px] p-4 max-lg:w-full items-center lg:items-start w-full'>
+            <h1 className='text-black tw-fonte-titulo '>
                 Nossa missão
             </h1>            
-            <div className='flex flex-row items-start'>
-                <div>
-                    <img src={Missao} alt="image" className='max-md:hidden h-[110px] w-[200px]'/>
+            <div className='flex flex-row lg:items-start max-lg:items-center'>
+                <div className='max-lg:hidden'>
+                    <img src={Missao} alt="image" className=' h-[110px] md:w-[200px] w-full'/>
                 </div>
-                <p className='text-black tw-fonte-texto w-[450px] text-left'> 
+                <p className='text-black tw-fonte-texto max-lg:text-center md:w-[450px] w-full'> 
                     Fornecer serviços e soluções integradas com o mais alto padrão
                     de qualidade, visando atender e superar as expectativas dos
                     clientes e sociedade.
@@ -76,25 +76,25 @@ const SobreNos = () => {
             ## Como trabalhamos
             Coelho -> Layout está pronto e responsivo
         */}
-        <div className='flex flex-col xl:pl-[75px] lg:pl-[50px] pt-[50px] p-4 max-md:w-screen'>
+        <div className='flex flex-col xl:pl-[75px] lg:pl-[50px] pt-[50px] p-4 max-md:w-full max-lg:text-center'>
             <h1 className='text-black tw-fonte-titulo'>
                 Como trabalhamos
             </h1>
-            <div className='flex flex-row items-center justify-center pt-[20px] max-lg:flex-col space-y-2'>
+            <div className='flex flex-row items-center justify-center pt-[20px] max-lg:flex-col space-y-2 '>
                 <img src={ComotTrab} className='max-lg:hidden'/>
-                <div className='lg:hidden'>
+                <div className='lg:hidden max-lg:w-2/3'>
                     <img src={Dim}/>
                     <p className='text-black tw-fonte-texto text-center'>1º Dimensionamento</p>
                 </div>
-                <div className='lg:hidden'>
+                <div className='lg:hidden max-lg:w-2/3'>
                     <img src={Acessoria}/>
                     <p className='text-black tw-fonte-texto text-center'>2º Assessoria</p>
                 </div>
-                <div className='lg:hidden'>
+                <div className='lg:hidden max-lg:w-2/3'>
                     <img src={Inst}/>
                     <p className='text-black tw-fonte-texto text-center'>3º Instalação</p>
                 </div>
-                <div className='lg:hidden'>
+                <div className='lg:hidden max-lg:w-2/3'>
                     <img src={Monit}/>
                     <p className='text-black tw-fonte-texto text-center'>4º Monitoramento</p>
                 </div>
@@ -108,7 +108,7 @@ const SobreNos = () => {
             ## Banner
             Coelho -> Layout está pronto e responsivo.
         */}
-        <div className='pt-[50px]'>
+        <div className='pt-[50px] w-full'>
             <Banner/>
         </div>
         {/*

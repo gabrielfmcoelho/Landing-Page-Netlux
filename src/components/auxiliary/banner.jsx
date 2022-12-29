@@ -12,23 +12,24 @@ const Banner = () => {
         Coelho -> O banner é uma seção que contém um título e um botão de contato.
         ... Já está com layout pronto e responsivo.
     */
-    <div className='flex items-center justify-center w-full h-fit'>
-        <div className='flex items-center lg:flex-row flex-col tw-formato-banner lg:rounded-[10px] xl:w-6/7 max-w-screen-2xl'>
-            <div className='flex flex-col text-left m-auto max-md:text-center max-md:pt-5 max-md:pb-5 md:m-5'>
-                <h1 className='tw-texto-banner text-white'>
+    <div className='flex items-center justify-center w-full h-fit lg:pr-4 lg:pl-4'>
+        <div className='flex items-center lg:flex-row flex-col tw-formato-banner lg:rounded-[10px] lg:w-6/7 max-w-screen-xl max-lg:w-screen'>
+            <div className='flex flex-col text-left m-auto max-lg:text-center max-lg:pt-5 max-lg:pb-5 lg:m-5'>
+                <h1 className='tw-texto-banner text-white max-sm:m-4'>
                     QUER SABER MAIS SOBRE ENERGIA SOLAR ?
+                    <span className='tw-texto-banner text-white max-sm:m-4'>
+                        <br className='lg:hidden'/>
+                        <br className='lg:hidden'/> FALE COM A GENTE AGORA MESMO!
+                    </span>
                 </h1>
-                <p className='tw-texto-banner text-white'>
-                    FALE COM A GENTE
-                </p>
             </div>
-            <div className='flex items-center m-auto max-md:pb-5 md:m-5'> 
+            <div className='flex items-center m-auto max-lg:pb-10 lg:m-5'> 
                 <BotaoContato/>
             </div>
         </div>
     </div>
     /* 
-        # Fim do "Banner"
+        # Fim do componente: "Banner"
         ------------------------------------------------
     */
   )

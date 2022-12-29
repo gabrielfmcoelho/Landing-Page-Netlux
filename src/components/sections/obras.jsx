@@ -1,12 +1,25 @@
+//  ------------------------------------------------
+//  # Impotação de componentes auxiliares, bibliotecas e imagens
 import React from 'react'
 import Stats from '../auxiliary/stats.jsx'
 import MolduraObra from '../auxiliary/molduraObra.jsx'
 import LogoBYD from '/src/assets/images/logoBYD.png'
+//  ------------------------------------------------
+
 
 const Obras = () => {
   return (
-    <div className='h-[1500px] tw-background-obras'>
-        <div className='pt-[100px] pl-[75px]'>
+    /*
+        ------------------------------------------------
+        # Inicio da seção: "Obras"
+    */
+    <section className='w-full h-fit tw-background-obras max-md:pt-[50px] relative'>
+        {/*
+            ------------------------------------------------
+            ## Algumas obras Netlux Solar
+            Coelho -> Layout está pronto e responsivo.
+        */}
+        <div name='OBRAS' className=' relative flex flex-col xl:pl-[75px] lg:pl-[50px] lg:pt-[50px] p-4 max-md:w-full max-lg:text-center'>
             <h1 className='tw-fonte-titulo'>
                 <span className='text-white'>Algumas obras </span>
                 <span className='tw-cor-destaque-titulo'>Netlux Solar</span>
@@ -18,37 +31,62 @@ const Obras = () => {
             excelência e qualidade em todas as fases dos nossos projetos.
             </p>
         </div>
-        <div className='pt-[70px]'>
+        {/*
+            ------------------------------------------------
+        */}
+        {/*
+            ------------------------------------------------
+            ## Carrorcel de imagens
+            Coelho -> Layout está pronto e responsivo.
+        */}
+        <div className='pt-[50px] relative max-xl:pr-4  max-xl:pl-4'>
             <MolduraObra/>
         </div>
-        <div className='pt-[120px] pb-[50px]'>
+        
+        {/*
+            ------------------------------------------------
+        */}
+        {/*
+            ------------------------------------------------
+            ## Barra de estatísticas
+            Coelho -> Layout está pronto e responsivo.
+        */}
+        <div className='relative pt-[100px] max-lg:pb-[100px] max-md:pl-1 max-md:pr-1'>
             <Stats/>
         </div>
-        <div className='flex flex-row h-fit space-x-[150px]'>
-            <div className='flex flex-col my-auto pl-[75px]'>
+        {/*
+            ------------------------------------------------
+        */}
+        {/*
+            ------------------------------------------------
+            ## Parceria com a BYD
+            Coelho -> Layout está pronto e responsivo.
+        */}
+        <div className='lg:grid lg:grid-cols-2 lg:gap-28 xl:pl-[75px] lg:pl-[50px] flex flex-col max-lg:p-4 w-full max-w-screen-2xl h-full max-lg:justify-center max-lg:items-center'>
+            <div className='flex flex-col space-y-2 max-lg:text-center my-auto'>
                 <h1 className='tw-fonte-titulo text-white'>
                     <span>A </span>
                     <span className='tw-destquebyd'>Netlux Solar </span>
-                    <span>é a única</span>
-                </h1>
-                <h1 className='tw-fonte-titulo text-white'>
-                    parceira BYD no Piauí
+                    <span>é a única parceira BYD no Piauí</span>
                 </h1>
                 <div className='tw-fonte-texto text-white'>
                     <p>
                         A BYD, maior empresa de elétricos do mundo,
-                    </p>
-                    <p>
                         firmou parceria com a Netlux Solar, trazendo 
-                    </p>
-                    <p>
                         inovação e tecnologia para nosso estado.
                     </p>
                 </div>
             </div>
-            <img src={LogoBYD} className='h-[501px] w-[498px]'/>
+            <img src={LogoBYD} className='h-[501px] w-[498px] max-lg:pl-12 max-sm:pl-6'/>
         </div>
-    </div>
+        {/*
+            ------------------------------------------------
+        */}
+    </section>
+    /*
+        Fim da seção: "Obras"
+        ------------------------------------------------
+    */
   )
 }
 

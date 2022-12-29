@@ -14,14 +14,20 @@ import SobreNos from './components/sections/sobreNos.jsx'
 function App() {
   return (
     <div>
-      {/*<Home/>*/}
-      {/*<Obras/>*/}
+      <Home/>
+      <Obras/>
       <SobreNos/>
       <Contato/>
+
     </div>
   )
 }
 // Fim da função principal
+/* 
+      <Obras/>
+      <SobreNos/>
+      <Contato/>
+*/ 
 // ------------------------------------------------
 
 export default App

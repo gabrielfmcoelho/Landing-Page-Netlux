@@ -1,6 +1,11 @@
+//  ------------------------------------------------
+//  # Impotação de componentes auxiliares, bibliotecas e imagens
 import React from 'react'
+//  ------------------------------------------------
 
 const Stats = () => {
+  //  ------------------------------------------------
+  //  # Estrutura de dados para as estadisticas
   const estatisticas = [
     {
       id: 1,
@@ -24,19 +29,29 @@ const Stats = () => {
       espacamento: ''
     }
   ]
+  //  ------------------------------------------------
 
   return (
-    <div className='flex flex-row items-center justify-center space-x-[25px]'>
+    /*
+        ------------------------------------------------
+        # Inicio do componente: "Estatisticas"
+        Coelho -> Layout está pronto, mas não responsivo.
+    */
+    <div className='flex flex-row max-lg:flex-col items-center justify-center lg:space-x-[25px] text-center max-lg:space-y-[50px]'>
       {estatisticas.map((estatistica) => (
         <div key={estatistica.id} className={`flex flex-row items-center justify-center ${estatistica.espacamento}`}>
           <div className='flex flex-col items-center'>
-            <h4 className='tw-titulo-stats'>{estatistica.titulo}</h4>
+            <h4 className='tw-titulo-stats drop-shadow-lg max-lg:tw-borda-texto'>{estatistica.titulo}</h4>
             <p className='tw-texto-stats'>{estatistica.texto}</p>
           </div>
-          <div className={estatistica.linha}></div>
+          <div className={`${estatistica.linha} max-lg:hidden`}></div>
         </div>
       ))}
     </div>
+    /*
+        fim do componente: "Estatisticas" 
+        ------------------------------------------------
+    */
   )
 }
 

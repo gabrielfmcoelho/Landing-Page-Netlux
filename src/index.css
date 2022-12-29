@@ -24,6 +24,12 @@
   color: rgba(246, 114, 19, 0.9);
 }
 
+.tw-netlux-nome {
+  font-family: 'Poppins';
+  font-style: bold;
+  font-weight: 500;
+}
+
 .tw-fonte-titulo {
   font-family: 'Poppins';
   font-style: normal;
@@ -42,8 +48,6 @@
 
 .tw-foto-carrossel {
   position: absolute;
-  width: 342px;
-  height: 274px;
   top: 0%;
   bottom: 26.34%;
   border-radius: 25px;
@@ -51,20 +55,10 @@
 
 .tw-carrosssel {
   position: relative;
-  width: 370px;
-  height: 372px;
 }
 
 .tw-moldura-carrossel {
-  position: absolute;
-  width: 370px;
-  height: 343px;
-  top: 7.8%;
-  bottom: 0%;
-
-  background: rgba(246, 128, 19, 0.9);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
 }
 
 .tw-titulo-carrossel {
@@ -198,4 +192,20 @@
   width: 1170px;
 
   border: 1px solid #FFFFFF;
+}
+
+.tw-borda-texto {
+    text-shadow: 
+      0.1px 0.1px 0 black, 
+      -0.1px -0.1px 0 black,
+      0.1px -0.1px 0 black,
+      -0.1px 0.1px 0 black;
+}
+
+.tw-borda-texto-branca {
+  text-shadow: 
+    1.2px 1.2px 0 #F68013, 
+    -1.2px -1.2px 0 #F68013,
+    1.2px -1.2px 0 #F68013,
+    -1.2px 1.2px 0 #F68013;
 }
