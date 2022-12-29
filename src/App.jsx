@@ -15,8 +15,8 @@ function App() {
   return (
     <div>
       <Home/>
-      <SobreNos/>
       <Obras/>
+      <SobreNos/>
       <Contato/>
    
 

@@ -4,8 +4,9 @@ import Navbar from '../auxiliary/navbar.jsx'
 
 const Home = () => {
     const [click, setClick] = React.useState(false);
+
   return (
-    <section name='INÍCIO' className="bg-[url('./src/assets/images/Energia-Solar.png')] bg-cover bg-no-repeat h-screen w-full overflow-auto lg:h-screen flex flex-col sm:bg-center">
+    <section name='INÍCIO' className="bg-[url('/Energia-Solar.png')] bg-cover bg-no-repeat h-screen w-full overflow-auto lg:h-screen flex flex-col sm:bg-center">
         <div className='flex items-center justify-center lg:mt-5 w-full'>
             <Navbar/>
         </div> 
