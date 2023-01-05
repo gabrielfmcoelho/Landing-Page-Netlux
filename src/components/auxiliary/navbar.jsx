@@ -61,11 +61,11 @@ const Navbar = () => {
         <div className='lg:hidden flex flex-row items-center justify-between p-4 bg-[#253A85] max-h-[80px]  drop-shadow-lg'>
           <div className='flex flex-row items-center space-x-2'>
             <img src={logo} alt="logo" className='w-[8%] h-[8%] drop-shadow-sm md:p-1' />
-            <h1 className=' tw-netlux-nome tw-borda-texto-branca bg-clip-text text-white text-[200%] drop-shadow-sm'>
+            <h1 className=' tw-netlux-nome font-Poppins text-[#F68013] bg-clip-text text-[200%] drop-shadow-sm'>
               Netlux Solar
             </h1>
           </div>
-          <div onClick={()=>setClick(!click)} className='cursor-pointer border border-gray-500 bg-white p-1 text-[#F68013] lg:hidden drop-shadow-sm'>
+          <div onClick={()=>setClick(!click)} className='cursor-pointer p-1 text-[#F68013] lg:hidden drop-shadow-sm'>
             {click ? <FaTimes size={30} /> : <FaBars size={30} />}
           </div>
         </div>

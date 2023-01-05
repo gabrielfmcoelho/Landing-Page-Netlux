@@ -4,8 +4,7 @@ import React from 'react'
 import Stats from '../auxiliary/stats.jsx'
 import MolduraObra from '../auxiliary/molduraObra.jsx'
 import LogoBYD from '/src/assets/images/logoBYD.png'
-import PPP1 from '/src/assets/images/PPP1.jpeg'
-import PPP2 from '/src/assets/images/PPP2.jpeg'
+import MolduraPPP from '../auxiliary/molduraPPP.jsx'
 //  ------------------------------------------------
 
 
@@ -44,7 +43,6 @@ const Obras = () => {
         <div className='pt-[50px] relative max-xl:pr-4  max-xl:pl-4'>
             <MolduraObra/>
         </div>
-        
         {/*
             ------------------------------------------------
         */}
@@ -84,22 +82,22 @@ const Obras = () => {
         {/*
             ------------------------------------------------
         */}
-        <div className='lg:grid lg:grid-cols-2 lg:gap-28 xl:pl-[75px] lg:pl-[50px] flex flex-col max-lg:p-4 w-full max-w-screen-2xl h-full max-lg:justify-center max-lg:items-center'>
-            <div className='flex flex-col space-y-2 max-lg:text-center my-auto'>
+        <div className='lg:grid lg:grid-cols-2 pb-[160px] lg:gap-1 xl:pl-[75px] lg:pl-[50px] flex-col max-lg:space-y-10 p-4 w-full max-w-screen-2xl h-full'>
+            <div className='w-[450px]'>
+                <MolduraPPP/>
+            </div>
+            <div className='flex flex-col space-y-2 max-lg:text-center lg:-ml-10 w-full'>
                 <h1 className='tw-fonte-titulo text-white'>
                     <span>A </span>
                     <span className='tw-destquebyd'>Netlux Solar </span>
-                    <span>é a única parceira BYD no Piauí</span>
+                    <span>em Parceria Público Privada - PPP</span>
                 </h1>
-                <div className='tw-fonte-texto text-white'>
+                <div className='tw-fonte-texto text-white md:w-[550px]'>
                     <p>
-                        A BYD, maior empresa de elétricos do mundo,
-                        firmou parceria com a Netlux Solar, trazendo 
-                        inovação e tecnologia para nosso estado.
+                        Em conjunto com o governo do estado do Piauí, a Netlux Solar foi responsável pela instalação do sistema de geração distribuída que a potencia de 8,3MWp, utilizando o sistema de seguidor solar tracker's.
                     </p>
                 </div>
             </div>
-            <img src={PPP2} className='h-[501px] w-[498px] max-lg:pl-12 max-sm:pl-6'/>
         </div>
     </section>
     /*
