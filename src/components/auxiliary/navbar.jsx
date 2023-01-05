@@ -1,23 +1,40 @@
+//  ------------------------------------------------
+//  # Impotação de componentes auxiliares, bibliotecas e imagens
 import React, {useState} from 'react';
 import {Link} from 'react-scroll';
 import logo from '/src/assets/images/logo.png'
 import BotaoOrcamento from './botaoOrcamento.jsx'
 import {FaBars, FaTimes} from 'react-icons/fa';
+//  ------------------------------------------------
 
 const Navbar = () => {
-
+  //  ------------------------------------------------
+  //  # Estrutura para lidar com o click do usuário
   const [click, setClick] = React.useState(false);
+  //  ------------------------------------------------
 
+  //  ------------------------------------------------
+  //  # Estrutura de dados para as seções do site
   const secoes = [
     {id: 1, nome: 'INÍCIO', link: 'INÍCIO', offset: 0},
     {id: 2, nome: 'OBRAS', link: 'OBRAS', offset: 0},
     {id: 3, nome: 'SOBRE NÓS', link: 'SOBRE NÓS', offset: 0},
     {id: 4, nome: 'CONTATO', link: 'CONTATO', offset: 0},
   ];
+  //  ------------------------------------------------
 
   return (
+    /*
+      ------------------------------------------------
+      # Inicio do componente: "Navbar"
+      Coelho -> O layout está pronto e completamente responsivo
+    */
     <div className='flex justify-center w-full'>
-
+      {/*
+        ------------------------------------------------
+        ## Inicio do componente: "Navbar Desktop"
+        Coelho -> O layout está pronto e completamente responsivo
+      */}
       <div className='h-[155px] flex items-center justify-center space-x-28 m-auto max-lg:hidden max-w-screen'>
         <img src={logo} alt="logo" className='w-[150px] h-[154px] drop-shadow-md' />
         <nav className='font-[600] leading-[24px] text-[16px] flex space-x-14 items-center justify-center text-white'>
@@ -31,7 +48,15 @@ const Navbar = () => {
             <BotaoOrcamento/>
         </nav>
       </div>
-
+      {/*
+        ## Fim do componente: "Navbar Desktop"
+        ------------------------------------------------
+      */}
+      {/*
+        ------------------------------------------------
+        ## Inicio do componente: "Navbar Mobile"
+        Coelho -> O layout está pronto e completamente responsivo
+      */}
       <div className='flex flex-col justify-center w-screen items-center lg:hidden'>
         <div className='lg:hidden flex flex-row items-center justify-between p-4 bg-[#253A85] max-h-[80px]  drop-shadow-lg'>
           <div className='flex flex-row items-center space-x-2'>
@@ -44,6 +69,11 @@ const Navbar = () => {
             {click ? <FaTimes size={30} /> : <FaBars size={30} />}
           </div>
         </div>
+        {/*
+          ------------------------------------------------
+          ### Inicio do componente: "Navbar Mobile - Menu"
+          Coelho -> O layout está pronto e completamente responsivo
+        */}
         {click && (
           <ul className='lg:hidden flex flex-col justify-end items-center   w-2/3 h-fit bg-white text-gray-500'>
             {secoes.map((secao) => (
@@ -55,9 +85,19 @@ const Navbar = () => {
             ))}
           </ul>
         )}
+        {/*
+          ### Fim do componente: "Navbar Mobile - Menu"
+          ------------------------------------------------
+        */}
       </div>
+      {/*
+        ## Fim do componente: "Navbar Mobile"
+        ------------------------------------------------
+      */}
     </div>
   )
+  //  # Fim do componente: "Navbar"
+  //  ------------------------------------------------
 }
 
 export default Navbar

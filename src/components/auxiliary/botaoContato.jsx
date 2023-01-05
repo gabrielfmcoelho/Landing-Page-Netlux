@@ -6,7 +6,11 @@ import React, {useState} from 'react'
 
 
 const BotaoContato = () => {
+  //  ------------------------------------------------
+  //  # Estrutura para lidar com o click do usuário
   const [click, setClick] = React.useState(false);
+  //  ------------------------------------------------
+  
   return (
     /* 
       ------------------------------------------------

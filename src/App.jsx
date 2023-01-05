@@ -18,17 +18,10 @@ function App() {
       <Obras/>
       <SobreNos/>
       <Contato/>
-   
-
     </div>
   )
 }
 // Fim da função principal
-/* 
-      <Obras/>
-      <SobreNos/>
-      <Contato/>
-*/ 
 // ------------------------------------------------
 
 export default App

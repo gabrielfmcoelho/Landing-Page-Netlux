@@ -4,6 +4,8 @@ import React from 'react'
 import Stats from '../auxiliary/stats.jsx'
 import MolduraObra from '../auxiliary/molduraObra.jsx'
 import LogoBYD from '/src/assets/images/logoBYD.png'
+import PPP1 from '/src/assets/images/PPP1.jpeg'
+import PPP2 from '/src/assets/images/PPP2.jpeg'
 //  ------------------------------------------------
 
 
@@ -82,6 +84,23 @@ const Obras = () => {
         {/*
             ------------------------------------------------
         */}
+        <div className='lg:grid lg:grid-cols-2 lg:gap-28 xl:pl-[75px] lg:pl-[50px] flex flex-col max-lg:p-4 w-full max-w-screen-2xl h-full max-lg:justify-center max-lg:items-center'>
+            <div className='flex flex-col space-y-2 max-lg:text-center my-auto'>
+                <h1 className='tw-fonte-titulo text-white'>
+                    <span>A </span>
+                    <span className='tw-destquebyd'>Netlux Solar </span>
+                    <span>é a única parceira BYD no Piauí</span>
+                </h1>
+                <div className='tw-fonte-texto text-white'>
+                    <p>
+                        A BYD, maior empresa de elétricos do mundo,
+                        firmou parceria com a Netlux Solar, trazendo 
+                        inovação e tecnologia para nosso estado.
+                    </p>
+                </div>
+            </div>
+            <img src={PPP2} className='h-[501px] w-[498px] max-lg:pl-12 max-sm:pl-6'/>
+        </div>
     </section>
     /*
         Fim da seção: "Obras"

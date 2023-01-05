@@ -2,7 +2,6 @@
 //  # Impotação de componentes auxiliares, bibliotecas e imagens
 import React from 'react'
 import BotaoEnviar from '../auxiliary/botaoenviar'
-import BotaoOrcamento from '../auxiliary/botaoOrcamento'
 import Footer from '../auxiliary/footer'
 //  ------------------------------------------------
 
@@ -19,7 +18,7 @@ const Contato = () => {
             ## Título e texto de contato
             Coelho -> Já está com layout responsivo e pronto.
         */}
-        <div name='CONTATO' className='flex flex-col justify-center items-center text-center text-black pt-[50px] max-w-screen-lg mx-auto h-full max-md:p-4 space-y-2 max-md:text-center'>
+        <div name='CONTATO' className='flex flex-col justify-center items-center text-center text-black pt-[20px] pb-[10px] max-w-screen-lg mx-auto h-full max-md:p-4 space-y-2 max-md:text-center'>
             <h1 className='tw-titulo-contato '>
                 Quer qualidade e experiencia no seu projeto?
             </h1>

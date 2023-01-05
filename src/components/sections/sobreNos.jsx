@@ -53,7 +53,7 @@ const SobreNos = () => {
             ## Nossa missão
             Coelho -> Layout está pronto e responsivo.
         */}.
-        <div className='flex flex-col xl:pl-[75px] lg:pl-[50px] pt-[50px] p-4 max-lg:w-full items-center lg:items-start w-full'>
+        <div className='flex flex-col xl:pl-[75px] lg:pl-[50px] pt-[20px] p-4 max-lg:w-full items-center lg:items-start w-full'>
             <h1 className='text-black tw-fonte-titulo '>
                 Nossa missão
             </h1>            
@@ -108,7 +108,7 @@ const SobreNos = () => {
             ## Banner
             Coelho -> Layout está pronto e responsivo.
         */}
-        <div className='pt-[50px] w-full'>
+        <div className='pt-[80px] w-full pb-[80px]'>
             <Banner/>
         </div>
         {/*

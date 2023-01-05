@@ -9,7 +9,7 @@ const Stats = () => {
   const estatisticas = [
     {
       id: 1,
-      titulo: '+ 500 kWp',
+      titulo: '+ 5 MWp',
       texto: 'INSTALADOS',
       linha: 'tw-linha-stats',
       espacamento: 'space-x-[25px]'

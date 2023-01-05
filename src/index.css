@@ -1,13 +1,24 @@
+/*  ------------------------------------------------  */
+/*  Importando a font Poppins do google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+/*  ------------------------------------------------  */
 
+/*  ------------------------------------------------  */
+/*  Instanciando arquivos de estilo do tailwind */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/*  ------------------------------------------------  */
 
+/*  ------------------------------------------------  */
+/*  Definindo a fonte padrão do projeto */
 :root {
   font-family: Poppins;
 }
+/*  ------------------------------------------------  */
 
+/*  ------------------------------------------------  */
+/* Definindo as cores e atributos customizados do projeto */
 .tw-background-obras {
   background: linear-gradient(180deg, #253A85 23.79%, #7A88AB 79.33%, #ACB4C7 92.57%, #DCDEE2 100%, #DCDEE2 100%);
 }
@@ -209,3 +220,4 @@
     1.2px -1.2px 0 #F68013,
     -1.2px 1.2px 0 #F68013;
 }
+/*  ------------------------------------------------  */

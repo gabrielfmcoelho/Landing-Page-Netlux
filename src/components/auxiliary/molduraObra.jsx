@@ -1,9 +1,9 @@
 //  ------------------------------------------------
 //  # Impotação de componentes auxiliares, bibliotecas e imagens
 import React from 'react'
-import EdTurquesa from '/src/assets/images/EdTurquesa.png'
-import ObraParnaiba from '/src/assets/images/ObraParnaiba.png'
-import ObraCaxias from '/src/assets/images/ObraCaxias.png'
+import Solo from '/src/assets/images/Solo.png'
+import Copperline from '/src/assets/images/Copperrline.png'
+import Residencial from '/src/assets/images/Residencial.jpeg'
 //  ------------------------------------------------
 
 const MolduraObra = () => {
@@ -12,21 +12,21 @@ const MolduraObra = () => {
     const obras = [
         {
             id: 1,
-            titulo: '35kWp - Teresina, PI',
+            titulo: '21,12kWp - Teresina, PI',
             subtitulo: 'Residencial',
-            foto: EdTurquesa
+            foto: Residencial
         },
         {
             id: 2,
-            titulo: '50kWp - Parnaiba, PI',
-            subtitulo: 'Empresarial',
-            foto: ObraParnaiba
+            titulo: '667,63kWp - Parnaiba, PI',
+            subtitulo: 'Industrial',
+            foto: Copperline
         },
         {
             id: 3,
-            titulo: '20kWp - Caxias, MA',
-            subtitulo: 'Rural',
-            foto: ObraCaxias
+            titulo: '235,44kWp - Caxias, MA',
+            subtitulo: 'Solo',
+            foto: Solo
         },
     ]
     //  ------------------------------------------------
