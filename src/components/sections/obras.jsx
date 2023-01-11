@@ -18,11 +18,11 @@ const Obras = () => {
         {/*
             ------------------------------------------------
             ## Algumas obras Netlux Solar
+            <span className='text-white'>Algumas obras </span>
             Coelho -> Layout está pronto e responsivo.
         */}
         <div name='OBRAS' className=' relative flex flex-col xl:pl-[75px] lg:pl-[50px] lg:pt-[50px] p-4 max-md:w-full max-lg:text-center'>
             <h1 className='tw-fonte-titulo'>
-                <span className='text-white'>Algumas obras </span>
                 <span className='tw-cor-destaque-titulo'>Netlux Solar</span>
             </h1>
             <p className='tw-fonte-texto text-white'>
@@ -83,7 +83,7 @@ const Obras = () => {
             ------------------------------------------------
         */}
         <div className='lg:grid lg:grid-cols-2 pb-[160px] lg:gap-1 xl:pl-[75px] lg:pl-[50px] flex-col max-lg:space-y-10 p-4 w-full max-w-screen-2xl h-full'>
-            <div className='w-[450px]'>
+            <div className='lg:w-[450px]'>
                 <MolduraPPP/>
             </div>
             <div className='flex flex-col space-y-2 max-lg:text-center lg:-ml-10 w-full'>
@@ -94,7 +94,7 @@ const Obras = () => {
                 </h1>
                 <div className='tw-fonte-texto text-white md:w-[550px]'>
                     <p>
-                        Em conjunto com o governo do estado do Piauí, a Netlux Solar foi responsável pela instalação do sistema de geração distribuída que a potencia de 8,3MWp, utilizando o sistema de seguidor solar tracker's.
+                    A Netlux Solar está executando para o grupo Energia/GM  tres miniusinas  pertencente ao projeto de PPP do estado do Piaui com  potencia total  de 8,3MWp, utilizando a tecnologia de  sistema de seguidor solar (tracker's).
                     </p>
                 </div>
             </div>

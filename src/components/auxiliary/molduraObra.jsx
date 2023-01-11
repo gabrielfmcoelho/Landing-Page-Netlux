@@ -12,20 +12,20 @@ const MolduraObra = () => {
     const obras = [
         {
             id: 1,
-            titulo: '21,12kWp - Teresina, PI',
-            subtitulo: 'Residencial',
+            titulo: '21,12 kWp - Residencial',
+            subtitulo: 'Pessoa Física',
             foto: Residencial
         },
         {
             id: 2,
-            titulo: '667,63kWp - Parnaiba, PI',
-            subtitulo: 'Industrial',
+            titulo: '667,63 kWp - Industrial',
+            subtitulo: 'Copperline',
             foto: Copperline
         },
         {
             id: 3,
-            titulo: '235,44kWp - Caxias, MA',
-            subtitulo: 'Solo',
+            titulo: '235,44 kWp - Solo',
+            subtitulo: 'Indústria e Comercio Dom Camillo',
             foto: Solo
         },
     ]

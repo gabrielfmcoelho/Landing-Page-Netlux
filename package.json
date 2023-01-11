@@ -2,7 +2,7 @@
   "name": "netlux",
   "private": true,
   "version": "1.0.0",
-  "homepage": "https://gabrielfmcoelho.github.io/LandingPage-Netlux/",
+  "homepage": "netluxsolar.com.br",
   "type": "module",
   "scripts": {
     "dev": "vite",
