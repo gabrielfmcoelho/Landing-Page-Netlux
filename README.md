@@ -96,8 +96,8 @@
 # Referências
 
   | Plataforma | Link | 
+  | :---: | :---: |
   | YouTube | [Build and Deploy a Fully Responsive Website with Modern UI/UX in React JS with Tailwind](https://www.youtube.com/watch?v=_oO4Qi5aVZs) |
   | YouTube | [From Figma to Tailwind CSS (Design Process + Code)](https://www.youtube.com/watch?v=6XIT2nXIbLU) |
-  | :---: | :---: |
 
 
