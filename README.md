@@ -17,12 +17,12 @@
 
 # Índice 
 
-* [Título e Imagem de capa](#Título-e-Imagem-de-capa)
+* [Título e Imagem de capa](#:hammer:-Título-e-Imagem-de-capa)
   
 * [Tecnologias](##Stack de Tecnologias)
 
 
-# Título e Imagem de capa
+# :hammer: Título e Imagem de capa
 
 Primeira landing page desenvolvida sob encomenda (por freelance) para empresa de energia solar. Site estático com stack de vitejs+tailwindcss hospedado em https://netluxsolar.com.br/ 
 
@@ -31,12 +31,12 @@ Primeira landing page desenvolvida sob encomenda (por freelance) para empresa de
 Primeira landing page desenvolvida sob encomenda (por freelance) para empresa de energia solar. Site estático com stack de vitejs+tailwindcss hospedado em https://netluxsolar.com.br/ 
 
 
-## :: Stack de Tecnologias
+# :: Stack de Tecnologias
 
   
 
 
-## :hammer: Funcionalidades do projeto
+# :hammer: Funcionalidades do projeto
 
 - `Responsividade`: descrição da funcionalidade 1
 
@@ -47,15 +47,15 @@ Primeira landing page desenvolvida sob encomenda (por freelance) para empresa de
 - `Funcionalidade 3`: descrição da funcionalidade 3
 
 
-## :: Autores e Contribuintes
+# :: Autores e Contribuintes
 
   | [<img src="https://avatars.githubusercontent.com/u/103870268?v=4" width=115><br><sub>Gabriel Coelho</sub>](https://github.com/gabrielfmcoelho) | [<img src="https://avatars.githubusercontent.com/u/102627134?v=4" width=115><br><sub>Luis Eduardo</sub>](https://github.com/luiseduardoalencar) |  
   | :---: | :---: |
 
 
-## :: Referências
+# :: Referências
 
 
 
 
-## :: Licença
+# :: Licença
