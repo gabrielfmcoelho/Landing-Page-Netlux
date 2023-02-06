@@ -17,12 +17,12 @@
 
 # Índice 
 
-* [Título e Imagem de capa](#:hammer:-Título-e-Imagem-de-capa)
+* [Título e Imagem de capa](#:hammer:Título-e-Imagem-de-capa)
   
 * [Tecnologias](##Stack de Tecnologias)
 
 
-# :hammer: Título e Imagem de capa
+# :hammer:Título e Imagem de capa
 
 Primeira landing page desenvolvida sob encomenda (por freelance) para empresa de energia solar. Site estático com stack de vitejs+tailwindcss hospedado em https://netluxsolar.com.br/ 
 
