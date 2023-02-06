@@ -17,6 +17,8 @@
 
 ## Sumário
 
+  * [Descrição](##-:page_facing_up:-Descrição-do-projeto)
+  * [Tecnologias](##Stack de Tecnologias)
 
 
 ## :page_facing_up: Descrição do projeto
