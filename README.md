@@ -15,14 +15,15 @@
 
 </div>
 
-# Índice 
+# Sumário
 
-* [:hammer:Título e Imagem de capa](#:hammer:Título-e-Imagem-de-capa)
-  
-* [Tecnologias](##Stack de Tecnologias)
+  * [Descrição do Projeto](#-Descrição-do-Projeto)
+  * [Stack de Tecnologias](#Stack-de-Tecnologias)
+  * [Funcionalidades do projeto](#Funcionalidades-do-projeto)
+  * [Autores e Contribuintes](#Autores-e-Contribuintes)
+  * [Referências](#Referências)
 
-
-# :hammer:Título e Imagem de capa
+# Descrição do Projeto
 
 Primeira landing page desenvolvida sob encomenda (por freelance) para empresa de energia solar. Site estático com stack de vitejs+tailwindcss hospedado em https://netluxsolar.com.br/ 
 
@@ -31,31 +32,35 @@ Primeira landing page desenvolvida sob encomenda (por freelance) para empresa de
 Primeira landing page desenvolvida sob encomenda (por freelance) para empresa de energia solar. Site estático com stack de vitejs+tailwindcss hospedado em https://netluxsolar.com.br/ 
 
 
-# :: Stack de Tecnologias
+# Stack de Tecnologias
 
-  
+  * Framework base - 
+  * Estilização - 
+  * Formulário - 
+  * Deploy - 
 
 
-# :hammer: Funcionalidades do projeto
+# Funcionalidades do projeto
+
+- `Planejado de ponta a ponta`: descrição da funcionalidade 2
 
 - `Responsividade`: descrição da funcionalidade 1
 
   ![GIF Mobile](https://user-images.githubusercontent.com/103870268/216789189-9adf3364-c65c-4a5b-bad7-e494ba78db24.gif)
 
-- `Funcionalidade 2`: descrição da funcionalidade 2
-- `Funcionalidade 2a`: descrição da funcionalidade 2a relacionada à funcionalidade 2
-- `Funcionalidade 3`: descrição da funcionalidade 3
+- `Formulário`: descrição da funcionalidade 2a relacionada à funcionalidade 2
+
+- `Redirecionamento para WhatsApp`: descrição da funcionalidade 3
 
 
-# :: Autores e Contribuintes
+# Autores e Contribuintes
 
   | [<img src="https://avatars.githubusercontent.com/u/103870268?v=4" width=115><br><sub>Gabriel Coelho</sub>](https://github.com/gabrielfmcoelho) | [<img src="https://avatars.githubusercontent.com/u/102627134?v=4" width=115><br><sub>Luis Eduardo</sub>](https://github.com/luiseduardoalencar) |  
   | :---: | :---: |
 
 
-# :: Referências
+# Referências
 
 
 
 
-# :: Licença
