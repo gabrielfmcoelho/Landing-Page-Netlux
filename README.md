@@ -15,7 +15,7 @@
 
 </div>
 
-
+## Sumário
 
 
 
@@ -27,6 +27,12 @@ Primeira landing page desenvolvida sob encomenda (por freelance) para empresa de
 
 Primeira landing page desenvolvida sob encomenda (por freelance) para empresa de energia solar. Site estático com stack de vitejs+tailwindcss hospedado em https://netluxsolar.com.br/ 
 
+
+## :: Stack de Tecnologias
+
+  
+
+
 ## :hammer: Funcionalidades do projeto
 
 - `Responsividade`: descrição da funcionalidade 1
@@ -37,15 +43,16 @@ Primeira landing page desenvolvida sob encomenda (por freelance) para empresa de
 - `Funcionalidade 2a`: descrição da funcionalidade 2a relacionada à funcionalidade 2
 - `Funcionalidade 3`: descrição da funcionalidade 3
 
-## Autores e Contribuintes
 
-<div>
+## :: Autores e Contribuintes
 
-  [<div align="top"><img src="https://avatars.githubusercontent.com/u/103870268?v=4" width=115><br><sub>Gabriel Coelho</sub></div>](https://github.com/gabrielfmcoelho)
-  
-  [<div align="top"><img src="https://avatars.githubusercontent.com/u/103870268?v=4" width=115><br><sub>Gabriel Coelho</sub></div>](https://github.com/gabrielfmcoelho)
+  | [<img src="https://avatars.githubusercontent.com/u/103870268?v=4" width=115><br><sub>Gabriel Coelho</sub>](https://github.com/gabrielfmcoelho) | [<img src="https://avatars.githubusercontent.com/u/102627134?v=4" width=115><br><sub>Luis Eduardo</sub>](https://github.com/luiseduardoalencar) |  
+  | :---: | :---: |
 
 
-  [<img align="top" src="https://avatars.githubusercontent.com/u/102627134?v=4" width=115><br><sub>Luis Eduardo</sub>](https://github.com/luiseduardoalencar)
+## :: Referências
 
-</div>
+
+
+
+## :: Licença
