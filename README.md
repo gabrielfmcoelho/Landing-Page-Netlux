@@ -15,13 +15,14 @@
 
 </div>
 
-## Sumário
+# Índice 
 
-  * [Descrição](##-:page_facing_up:-Descrição-do-projeto)
-  * [Tecnologias](##Stack de Tecnologias)
+* [Título e Imagem de capa](#Título-e-Imagem-de-capa)
+  
+* [Tecnologias](##Stack de Tecnologias)
 
 
-## :page_facing_up: Descrição do projeto
+# Título e Imagem de capa
 
 Primeira landing page desenvolvida sob encomenda (por freelance) para empresa de energia solar. Site estático com stack de vitejs+tailwindcss hospedado em https://netluxsolar.com.br/ 
 
