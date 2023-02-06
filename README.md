@@ -7,12 +7,30 @@
 </div>
 
 
-<div>
+<div align="center">
 
-  <img align=top src=https://img.shields.io/badge/Status-Conclu%C3%ADdo-success>
+  <img align=top src="https://img.shields.io/badge/Status-Conclu%C3%ADdo-success">
 
   <img align=top src=https://img.shields.io/badge/Deploy-10%2F01%2F2023-yellowgreen>
-
+  
+  <img align=top src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
+  
+  <img align=top src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  
+  <img align=top src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  
+  <img align=top src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white">
+  
+  <img align=top src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+  
+  <img align=top src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white">
+  
+  <img align=top src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+  
+  <img align=top src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
+  
+  <img align=top src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white">
+  
 </div>
 
 # Sumário
