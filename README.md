@@ -17,7 +17,7 @@
 
 # Índice 
 
-* [Título e Imagem de capa](#:hammer:Título-e-Imagem-de-capa)
+* [:hammer:Título e Imagem de capa](#:hammer:Título-e-Imagem-de-capa)
   
 * [Tecnologias](##Stack de Tecnologias)
 
